@@ -1,21 +1,68 @@
-
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
 .venv/
 venv/
-.env
-.env.*
+ENV/
+env/
 
-# Jupyter
-.ipynb_checkpoints/
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 .DS_Store
 
-# Data & models
-data/*.parquet
-data/*.feather
-data/*.xlsx
-models/
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Model files (large binary files - optional, depends on your preference)
+# Uncomment if you don't want to commit models
+# models/*.joblib
+
+# Generated data (optional - you may want to commit this for demo purposes)
+# data/*.csv
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Test files
+test_imports.py
+setup_python_alias.sh
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
